@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello world jobs
-        run: echo "Hello world"
-        run: date
-        run: ls -la
+        run: |
+          echo "Hello world"
+          date
+          ls -la
